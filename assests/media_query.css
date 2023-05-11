@@ -1,0 +1,172 @@
+@media (max-width:992px){
+
+    .container-fluid{
+   
+        margin-top: 0px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    
+ a.navbar-brand{
+
+ }
+ .col-6{
+    width: 50%;
+    display: flex;
+ }
+ .content_wrap{
+    margin-top: 106px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ 
+ .image_1>img{
+   
+    margin: 43px 0px 0px 35px;
+    width: 100%;
+}
+
+
+ 
+ .button_wrapper{
+    display: flex;
+ }
+ .btn.rounded-pill.bg-info{
+       padding: 7px 21px 7px 22px;
+ }
+ .about_header>h1::after{
+    content: ' ';
+    display: block;
+    position: relative;
+    background-color:#00bcd4;
+    width: 40px;
+    height: 3px;
+    margin-top: 8px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_header>h1::before{
+    content: ' ';
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 141px;
+    height: 1px;
+    margin-top: 54px;
+    margin-left: 22px;
+}
+.service_heading{
+    margin-left: 0px;
+}
+ .image_2>img{
+    width: 441px;
+    height: 496px;
+}
+
+ }
+    
+
+@media (max-width:768px){
+    .content_wrap{
+        margin-top: 67px;
+        margin-left: auto;
+        margin-right: auto;    
+     }
+     .image_1>img{
+    margin: 43px 0px 0px 49px;
+    width: 100%;
+
+    }
+     .button_wrapper{
+        display: flex;
+     }
+     .btn.rounded-pill.bg-info{
+        
+    padding: 7px 1px 7px 1px;
+    margin: 2px 0px;
+}
+.about_header>h1::after{
+    content: ' ';
+    display: block;
+    position: relative;
+    background-color:#00bcd4;
+    width: 40px;
+    height: 3px;
+    margin-top: 12px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_header>h1::before{
+    content: ' ';
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 141px;
+    height: 1px;
+    margin-top: 54px;
+    margin-left: 22px;
+
+    }
+     }
+
+     @media(max-width:576px){
+        .col-6{
+            width: 100%;
+            display:block;
+        }
+        .content_wrap{
+            margin-top: 67px;
+            margin-left: auto;
+            margin-right: auto;    
+         }
+         .image_1>img{
+        margin: 43px auto 49px;
+        width: 100%;
+    
+        }
+         .button_wrapper{
+            display: flex;
+         }
+         .btn.rounded-pill.bg-info{
+            
+        padding: 7px 1px 7px 1px;
+        margin: 2px 0px;
+    }
+    .inline{
+        width: 100%;
+        display: block;
+       
+    }
+    .inline>li{
+        text-align: center;
+        line-height: 1.8;
+    }
+    .about_header>h1::after{
+        content: ' ';
+        display: block;
+        position: relative;
+        background-color:#00bcd4;
+        width: 40px;
+        height: 3px;
+        margin-top: 15px;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about_header>h1::before{
+        content: ' ';
+        position: absolute;
+        background-color: #d9d9d9;
+        width: 141px;
+        height: 1px;
+        margin-top: 54px;
+        margin-left: 2px;
+    
+        }
+        .image_2>img{
+            width: 100%;
+            margin-left: -19px;
+        }
+     }

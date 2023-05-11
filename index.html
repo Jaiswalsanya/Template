@@ -10,60 +10,67 @@
     <script src="/assests/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="/assests/style.css" rel="stylesheet">
+    <link href="/assests/media_query.css" rel="stylesheet">
 </head>
 <body>
      <section class="main">
-        <nav class="navbar navbar-expand-lg ">
-          <div class="container">
+     
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
             <a class="navbar-brand" href="#">ARSHA</a>
-              <ul class="nav justify-content-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link " href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#">Team</a>
-                  </li>
+                  <a class="nav-link" href="#">About</a>
+                </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" >Dropdown</a>
-                  <ul class="dropdown-menu">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Service</a>
                 </li>
-                <li><button type="button" class="btn rounded-pill"><span class="badge rounded-pill">Get Started</span></button></li>
-                </ul>
+              
+              <divclass="d-flex">
+
+               <li><button type="button" class="btn rounded-pill"><span class="badge rounded-pill">Get Started</span></button></li>
+              </ul>
+              </div>
+
             </div>
           </div>
         </nav>
         <div class="container">
          <div class="row">
           <div class="col-6">
+            <div class="content_wrap">
             <h1>Better Solution for your Business</h1>
             <p><span class="color">We are team of talented designer making websites with bootstap</span></p>
-              
+              <div class="button_wrapper">
             <button type="button" class="btn rounded-pill bg-info"><span class="badge rounded-pill"></span><span class="text">Get Started</span></button>
               <button type="submit" class="btn rounded-pill">
                 <span class=" rounded-circle"><i class="fa fa-play" aria-hidden="true"></i></span>   <span class="text"> Watch Video</span>
               </button>
-          </div>
+              </div>
+              </div>
+              </div>
           <div class="col-6">
-            <span class=".img_1">
-            <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/hero-img.png" class="float-end" width="500px" height="400px"></span>
+            <div class="image_1">
+            <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/hero-img.png" >
+          </div>
           </div>
          </div>
         </div>
@@ -86,10 +93,18 @@
     <!-- *******************************ABOUT US*********************************-->
 
     <section class="about">
+      <div class="row">
+        <div class="col-12">
+      <div class="about_header">
       <h1>ABOUT US</h1>
+      </div>
+        </div>
+      </div>
+      
       <div class="container">
         <div class="row">
           <div class="col-6">
+            <div class="about_content">
           <p>
            Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmo tempor incididunt ut labore et dolore magna aliqua</p>
            
@@ -108,27 +123,28 @@
           <span class="check"><i class="fa fa-check"></i></span></div>
           <li>Uilamco laboris nisi ut aliquip ex ea commodo consequat</li>
           </ul>
-          
           </div>
-          
-        
-      
+          </div>
+
           <div class="col-6">
+            <div class="about_content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa aliquid beatae, saepe sit excepturi unde assumenda corporis officia pariatur et! Corrupti magni dicta cum sequi facere! Assumenda ipsa explicabo soluta cupiditate pariatur necessitatibus dignissimos aperiam suscipit doloremque voluptatem ad dolorem incidunt, expedita labore fugit, fuga ea quis non et!</p>
             <button type="button" class="btn btn-light">Learn More</button>
-              <div class="col-6">
+           </div>
             </div>
             
       </div>
 
     </section>
-    <section class="last">
+    <section class="service">
       <div class="container">
         <div class="row">
           <div class="col-6">
-          <h3 class="heading">Lorem ipsum dolor sit <b>amet consectetur adipisicing elit. Porro.</b>
+            <div class="service_heading">
+          <h3 >Lorem ipsum dolor sit <b>amet consectetur adipisicing elit. Porro.</b>
           </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus itaque rerum! Ad saepe nemo aspernatur quisquam facere, tenetur quod?</p>
+        
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -169,11 +185,15 @@
                   This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. 
                 </div>
               </div>
+              </div>
             </div>
           </div>
           </div>
+        
           <div class="col-6">
-          <img src="https://kinsta.com/wp-content/uploads/2020/02/web-design-best-practices.jpg" class="rounded">
+            <div class="image_2">
+          <img src="https://kinsta.com/wp-content/uploads/2020/02/web-design-best-practices.jpg">
+        </div>
         </div>
         
       </div>
